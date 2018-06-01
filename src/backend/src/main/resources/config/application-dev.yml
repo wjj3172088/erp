@@ -1,0 +1,9 @@
+#设置SQL打印目录级别
+logging:
+  level:
+    root: DEBUG
+    org:
+      springframework: INFO
+      apache:
+        http:
+          wire: INFO

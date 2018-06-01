@@ -1,0 +1,15 @@
+#公共配置
+spring:
+  profiles:
+    active: dev
+  application:
+    name: frontend-api
+logging:
+  path: /var/log/erp/
+  config: classpath:config/logback.xml
+  level:
+    org:
+      apache:
+        coyote:
+          http11:
+            Http11InputBuffer: DEBUG
